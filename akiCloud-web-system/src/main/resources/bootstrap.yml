@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: systemService
+  profiles:
+    active: akiCloud
+  cloud:
+    nacos:
+      server-addr: 8.130.135.199:8848
+      discovery:
+        group: akiCloud
+      config:
+        group: akiCloud
+        file-extension: yml
+
+

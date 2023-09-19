@@ -89,6 +89,12 @@
             <type>pom</type>
             <scope>import</scope>
         </dependency>
+        <!-- 解决SpringCloud默认禁止bootstrap的报错问题 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>4.0.4</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
